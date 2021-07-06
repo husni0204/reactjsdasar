@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Lifecycle from './Lifecycle';
-// import Map from './Map';
-// import StateProps from './StateProps';
+// import Lifecycle from './reactjsdasar/Lifecycle';
+// import Map from './reactjsdasar/Map';
+// import StateProps from './reactjsdasar/StateProps';
 // import App from './App';
-// import Variabel from './Variabel';
+// import Variabel from './reactjsdasar/Variabel';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Crud from "./crud";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Lifecycle />
+    <Crud />
+    {/* <Lifecycle /> */}
     {/* <Map /> */}
     {/* <StateProps /> */}
     {/* <Variabel /> */}
